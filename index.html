@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Байкал</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
@@ -35,57 +40,71 @@
             <a href="">подобрать тур</a>
             <a href="">стрелка вниз</a>
         </section>
-        <section>
-            <h2>Категория туров</h2>
-            <ul>
-                <li>
-                    <a href=""><img src="./images/kategoria-turov/turbaza.jpg" alt="Турбазы на Байкале" width=256></a>  
-                    <p>Турбазы на Байкале</p>
+        <section class="categories">
+            <div class="container">
+            <h2 class="visually-hidden">Категория туров</h2>
+            <ul class="list categories-list">
+                <li class="item categories-item">
+                    <a href=""><img src="./images/kategoria-turov/turbaza.jpg" alt="Турбазы на Байкале" width=256>  
+                    <p class="categiries-text">Турбазы на Байкале</p>
+                    </a>
                 </li>
-                <li>                  
-                    <a href=""><img src="./images/kategoria-turov/exkursii.jpg" alt="Турбазы на Байкале" width=256></a>
-                    <p>Экскурсии и туры</p>
-                <li>
-                    <a href=""><img src="./images/kategoria-turov/otdyh.jpg" alt="Турбазы на Байкале" width=256></a>
-                    <p>Охота и рыбалка</p>
+                <li class="item categories-item">                  
+                    <a href=""><img src="./images/kategoria-turov/exkursii.jpg" alt="Турбазы на Байкале" width=256>
+                    <p class="categiries-text">Экскурсии и туры</p>
+                    </a>
+                <li class="item categories-item">
+                    <a href=""><img src="./images/kategoria-turov/otdyh.jpg" alt="Турбазы на Байкале" width=256>
+                    <p class="categiries-text">Охота и рыбалка</p>
+                    </a>
                 </li>
-                <li>
-                    <a href=""><img src="./images/kategoria-turov/extrym.jpg" alt="Турбазы на Байкале" width=256></a>  
-                    <p>Экстрим туры</p>
+                <li class="item categories-item">
+                    <a href=""><img src="./images/kategoria-turov/extrym.jpg" alt="Турбазы на Байкале" width=256>  
+                    <p class="categiries-text">Экстрим туры</p>
+                    </a>
                 </li>
-                <li>
-                    <a href=""><img src="./images/kategoria-turov/teplohod.jpg" alt="Турбазы на Байкале" width=256></a>
-                    <p>Теплоходы, яхты</p>
+                <li class="item categories-item">
+                    <a href=""><img src="./images/kategoria-turov/teplohod.jpg" alt="Турбазы на Байкале" width=256>
+                    <p class="categiries-text">Теплоходы, яхты</p>
+                    </a>
                 </li>
-                <li>
-                    <a href=""><img src="./images/kategoria-turov/krasota.jpg" alt="Турбазы на Байкале" width=256></a>  
-                    <p>Красоты Байкала</p>
+                <li class="item categories-item">
+                    <a href=""><img src="./images/kategoria-turov/krasota.jpg" alt="Турбазы на Байкале" width=256>  
+                    <p class="categiries-text">Красоты Байкала</p>
+                    </a>
                 </li>
-                <li>
-                    <a href=""><img src="./images/kategoria-turov/hustinka.jpg" alt="Турбазы на Байкале" width=256></a>
-                    <p>Гостиницы в Улан-Удэ</p>
+                <li class="item categories-item">
+                    <a href=""><img src="./images/kategoria-turov/hustinka.jpg" alt="Турбазы на Байкале" width=256>
+                    <p class="categiries-text">Гостиницы в Улан-Удэ</p>
+                    </a>
                 </li>
-                <li>
-                    <a href=""><img src="./images/kategoria-turov/transport.jpg" alt="Турбазы на Байкале" width=256></a>
-                    <p>Транспорт</p>
+                <li class="item categories-item">
+                    <a href=""><img src="./images/kategoria-turov/transport.jpg" alt="Турбазы на Байкале" width=256>
+                    <p class="categiries-text">Транспорт</p>
+                    </a>
                 </li>
-                <li>
-                    <a href=""><img src="./images/kategoria-turov/delovoi.jpg" alt="Турбазы на Байкале" width=256></a>
-                    <p>Деловой туризм</p>
+                <li class="item categories-item">
+                    <a href=""><img src="./images/kategoria-turov/delovoi.jpg" alt="Турбазы на Байкале" width=256>
+                    <p class="categiries-text">Деловой туризм</p>
+                    </a>
                 </li>
-                <li>
-                    <a href=""><img src="./images/kategoria-turov/kruiz.jpg" alt="тутбази на Байкале" width=256></a>
-                    <p>Круизы по Байкалу</p>
+                <li class="item categories-item">
+                    <a href=""><img src="./images/kategoria-turov/kruiz.jpg" alt="тутбази на Байкале" width=256>
+                    <p class="categiries-text">Круизы по Байкалу</p>
+                    </a>
                 </li>
-                <li>
-                    <a href=""><img src="./images/kategoria-turov/zim-tury.jpg" alt="тутбази на Байкале" width=256></a>
-                    <p>Зимние туры</p>
+                <li class="item categories-item">
+                    <a href=""><img src="./images/kategoria-turov/zim-tury.jpg" alt="тутбази на Байкале" width=256>
+                    <p class="categiries-text">Зимние туры</p>
+                    </a>
                 </li>
-                <li>
-                    <a href=""><img src="./images/kategoria-turov/o-baikale.jpg" alt="тутбази на Байкале" width=256></a>
-                    <p>Карта Байкала</p>
+                <li class="item categories-item">
+                    <a href=""><img src="./images/kategoria-turov/o-baikale.jpg" alt="тутбази на Байкале" width=256>
+                    <p class="categiries-text">Карта Байкала</p>
+                    </a>
                 </li>
             </ul>
+        </div>
         </section>
         <section>
             <h2>Основные направления деятельности</h2>
@@ -209,17 +228,31 @@
             <video src=""></video>
             <a href="">Читать подробней</a>
         </section>
-        <section>
-            <h2>Фотогалерея</h2>
-            <a href="">Перейти в раздел</a>
-            <ul>
-                <li><img src="./images/photo-gallery/derevo.jpg" alt="фото" width="352"></li>
-                <li><img src="./images/photo-gallery/kotiki.jpg" alt="фото" width="352"></li>
-                <li><img src="./images/photo-gallery/skala.jpg" alt="фото" width="352"></li>
-                <li><img src="./images/photo-gallery/lenin.jpg" alt="фото" width="352"></li>
-                <li><img src="./images/photo-gallery/palatki.jpg" alt="фото" width="352"></li>
-                <li><img src="./images/photo-gallery/ozero.jpg" alt="фото" width="352"></li>
-            </ul>
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery-header">
+                    <h2 class="gallery-title">Фотогалерея</h2>
+                    <a href="" class="gallery-link">Перейти в раздел</a>
+                    <ul class="list gallery-list">
+                        <div class="btn">
+                        <li>
+                            <button class="gallery-btn" type="button"></button>
+                        </li>
+                        <li>
+                            <button class="gallery-btn" type="button"></button>
+                        </li>
+                        </div>
+                    </ul>
+                </div>
+                <ul class="list gallery-photos">
+                    <li class="item gallery-photos-item"><img src="./images/photo-gallery/derevo.jpg" alt="фото" width="352"></li>
+                    <li class="item gallery-photos-item"><img src="./images/photo-gallery/kotiki.jpg" alt="фото" width="352"></li>
+                    <li class="item gallery-photos-item"><img src="./images/photo-gallery/skala.jpg" alt="фото" width="352"></li>
+                    <li class="item gallery-photos-item"><img src="./images/photo-gallery/lenin.jpg" alt="фото" width="352"></li>
+                    <li class="item gallery-photos-item"><img src="./images/photo-gallery/palatki.jpg" alt="фото" width="352"></li>
+                    <li class="item gallery-photos-item"><img src="./images/photo-gallery/ozero.jpg" alt="фото" width="352"></li>
+                </ul>
+            </div>
         </section>
         <section>
             <h2>Байкальский отдых с нами – это легко!</h2>

@@ -1,0 +1,123 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+a[href] {
+        text-decoration: none;
+}
+
+.container {
+    width: 1150px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+.list {
+    list-style: none;
+    list-style-type: none;
+}
+
+.categories {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.categiries-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: black;
+    padding: 13px 19px 16px;
+}
+.categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -32px;
+    margin-bottom: -32px;
+}
+.categories-item {
+    width: 256px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    border: 1px solid #D9D9DE;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.gallery {
+    /* background-color: #3FA9F5;
+    opacity: 0.07; */
+    padding-top: 39px;
+    padding-bottom: 85px;
+
+}
+.gallery-title {
+    font-family: PT Serif, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.3;
+}
+.gallery-link {
+    color: #0050B2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-decoration-line: underline;
+    margin-left: auto;
+}
+.gallery-header {
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+}
+.gallery-list {
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+    margin-right: -32px;
+    margin-bottom: -32px;
+}
+.gallery-btn {
+    background-color: transparent;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #0061D9;
+    box-sizing: border-box;
+    border-radius: 22px;
+}
+.gallery-photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-photos-item {
+    width: 352px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+
+}
