@@ -24,6 +24,7 @@ a[href] {
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
+    outline: 2px solid tomato;
 }
 
 .visually-hidden {
@@ -43,8 +44,7 @@ a[href] {
 }
 
 .categories {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding: 64px 0;
 }
 
 .categiries-text {
@@ -94,15 +94,17 @@ a[href] {
 .gallery-header {
     display: flex;
     align-items: center;
-    margin-top: 52px;
+    margin-bottom: 20px;
 }
 .gallery-list {
     display: flex;
     align-items: center;
-    margin-left: 55px;
-    margin-right: -32px;
-    margin-bottom: -32px;
 }
+
+.gallery-list .item:not(:last-child) {
+    margin-right: 16px;
+}
+
 .gallery-btn {
     background-color: transparent;
     width: 44px;
@@ -114,10 +116,11 @@ a[href] {
 .gallery-photos {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -32px;
+    margin-top: -32px;
 }
 .gallery-photos-item {
-    width: 352px;
-    margin-right: 32px;
-    margin-bottom: 32px;
-
+    width: ((100% - 94px) / 3);
+    margin-left: 32px;
+    margin-top: 32px;
 }
