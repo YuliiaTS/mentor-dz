@@ -120,7 +120,7 @@ a[href] {
     margin-top: -32px;
 }
 .gallery-photos-item {
-    width: ((100% - 94px) / 3);
+    width: ((100% - 96px) / 3);
     margin-left: 32px;
     margin-top: 32px;
 }
