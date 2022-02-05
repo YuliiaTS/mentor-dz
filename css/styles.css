@@ -96,8 +96,15 @@ body {
     font-size: 18px;
     line-height: 1.3;
     color: #ffffff;
+    display: flex;
+    align-items: center;
   }
   
+  .header-tel-icon,
+  .header-mail-icon {
+      margin-right: 12px;
+  }
+
   .header-btn {
     background-color: transparent;
     padding: 15px;
@@ -192,7 +199,7 @@ body {
     margin-right: auto;
   }
   
-  .categoris {
+  .categories {
     padding: 64px 0;
   }
   
@@ -260,6 +267,9 @@ body {
     border: 1px solid #0061d9;
     border-radius: 50%;
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .gallery-item:not(:last-child) {
