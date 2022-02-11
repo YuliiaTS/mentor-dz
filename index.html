@@ -109,7 +109,8 @@
             </div>
         </section>
         <!--Основные направления деятельности-->
-        <section>
+        <section class="main">
+            <div class="container">
             <h2>Основные направления деятельности</h2>
             <ul>
                 <li>
@@ -161,14 +162,16 @@
                     <p>Организация индивидуальных туров и VIP-туров на Байкале</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!--Популярные предложения фото ссилки-->
-        <section>
-            <h2>Популярные предложения</h2>
+        <section class="popular">
+            <div class="container">
+            <h2 class="popular-title">Популярные предложения</h2>
             <ul>
                 <li><a href=""><img src="./images/pop (1).jpg" alt="предложения по турам" width="256"></a><h3>Зимний однодневный тур на Чивыркуйский залив</h3><p>Cтоимость 4000 руб.</p></li>
                 <li><a href=""><img src="./images/pop (1).jpg" alt="предложения по турам" width="256"></a><h3>Зимний однодневный тур на остров Ольхон</h3><p>Cтоимость 5000 руб.</p></li>
-                <li><a href=""><img src="./images/pop (1).jpg" alt="предложения по турам" width="544"></a><h3>Экскурсия в Иволгинский дацан</h3><p>Продолжительность 4 часа Cтоимость от 500 руб.</p></li>
+                <li><a href=""><img src="./images/ivolginski-datsan.jpg" alt="предложения по турам" width="544"></a><h3>Экскурсия в Иволгинский дацан</h3><p>Продолжительность 4 часа Cтоимость от 500 руб.</p></li>
                 <li><a href=""><img src="./images/pop (1).jpg" alt="предложения по турам" width="256"></a><h3>Обзорная экскурсия по Улан-Удэ</h3><p>Продолжительность 3 часа Cтоимость от 500 руб.</p></li>
                 <li><a href=""><img src="./images/pop (1).jpg" alt="предложения по турам" width="256"></a><h3>Эко-отель «Байкальское шале», с. Максимиха</h3><p>Стоимость от 6500 руб.</p></li>
                 <li><a href=""><img src="./images/pop (1).jpg" alt="предложения по турам" width="256"></a><h3>Летний однодневный тур в Чивыркуйский залив</h3><p>Cтоимость 4000 руб.</p></li>
@@ -179,88 +182,102 @@
                 <li><a href=""><img src="./images/pop (1).jpg" alt="предложения по турам" width="256"></a><h3>Парк-отель «Байкальская Ривьера», с. Гремячинск</h3><p>Cтоимость от 3700 руб.</p></li>
                 <li><a href=""><img src="./images/pop (1).jpg" alt="предложения по турам" width="256"></a><h3>Зимний тур «Чивыркуйская сказка»</h3><p>Стоимость 2000 руб.</p></li>
             </ul>
-            <a href=""><img src="./images/предложения/Фотогалерея5.jpg" alt="фотогалерея туров" width="256"><p>Показать все предложения</p></a>
+            <a href="" class="show-link">
+                <div class="show-wrap">
+                    <img src="./images/all-gal.jpg" alt="фотогалерея туров" width="256">
+                    <p class="show-text">Показать все предложения</p>
+                </div>
+            </a>
+            </div>
+            </div>
         </section>
         <!--Фотогалерея с кнопкой-->
         <section class="gallery">
             <div class="container">
                 <div class="gallery-header">
-            <h2 class="gallery-title">Фотогалерея</h2>
-            <a class="gallery-link" href="">Перейти в раздел</a>
-            <ul class="gallery-list">
-                <li class="gallery-item"><button class="gallery-btn" type="button">
-                    <svg class="" width="6" height="12">
-                        <use href="./images/symbol-defs.svg#icon-Vector-left"></use>
-                    </svg>
-                </button></li>
-                <li class="gallery-item"><button class="gallery-btn" type="button">
-                    <svg class="" width="6" height="12">
-                        <use href="./images/symbol-defs.svg#icon-Vector-r"></use>
-                    </svg>
-                </button></li>
-            </ul>
-            </div>
-            <ul class="gallery-photos">
-                <li class="gallery-photos-item"><img src="./images/photo-gallery/derevo.jpg" alt="дерево на берегу" width="352"></li>
-                <li class="gallery-photos-item"><img src="./images/photo-gallery/kotiki.jpg" alt="тюлени" width="352"></li>
-                <li class="gallery-photos-item"><img src="./images/photo-gallery/skala.jpg" alt="скала в море" width="352"></li>
-                <li class="gallery-photos-item"><img src="./images/photo-gallery/lenin.jpg" alt="ленин" width="352"></li>
-                <li class="gallery-photos-item"><img src="./images/photo-gallery/palatki.jpg" alt="две юрты" width="352"></li>
-                <li class="gallery-photos-item"><img src="./images/photo-gallery/ozero.jpg" alt="залив линия берега" width="352"></li>
-            </ul>
+                    <h2 class="gallery-title">Фотогалерея</h2>
+                    <a class="gallery-link" href="">Перейти в раздел</a>
+                    <ul class="gallery-list">
+                        <li class="gallery-item"><button class="gallery-btn" type="button">
+                            <svg class="" width="6" height="12">
+                                <use href="./images/symbol-defs.svg#icon-Vector-left"></use>
+                            </svg>
+                        </button></li>
+                        <li class="gallery-item"><button class="gallery-btn" type="button">
+                            <svg class="" width="6" height="12">
+                                <use href="./images/symbol-defs.svg#icon-Vector-r"></use>
+                            </svg>
+                        </button></li>
+                    </ul>
+                </div>
+                <ul class="gallery-photos">
+                    <li class="gallery-photos-item"><img src="./images/photo-gallery/derevo.jpg" alt="дерево на берегу" width="352"></li>
+                    <li class="gallery-photos-item"><img src="./images/photo-gallery/kotiki.jpg" alt="тюлени" width="352"></li>
+                    <li class="gallery-photos-item"><img src="./images/photo-gallery/skala.jpg" alt="скала в море" width="352"></li>
+                    <li class="gallery-photos-item"><img src="./images/photo-gallery/lenin.jpg" alt="ленин" width="352"></li>
+                    <li class="gallery-photos-item"><img src="./images/photo-gallery/palatki.jpg" alt="две юрты" width="352"></li>
+                    <li class="gallery-photos-item"><img src="./images/photo-gallery/ozero.jpg" alt="залив линия берега" width="352"></li>
+                </ul>
             </div>
         </section>
         <!--описание отдыха на байкале-->
-        <section>
-            <h2>Байкальский отдых с нами – это легко!</h2>
-            <ul>
-                <li><img src="./images/otdyh-s-nami1.jpg" alt="берег моря" width="256"></li>
-                <li><img src="./images/otdyh-s-nami2.jpg" alt="парень и девушка" width="256"></li>
-            </ul>
-            <p>На сайте туристического агентства «Байкальский отдых» вы найдете всю необходимую информацию о туристических базах отдыха
-            на озере Байкал. Любите ли вы отличный сервис и европейский комфорт или предпочитаете прочувствовать все трудности
-            дикого туризма и окунуться в атмосферу байкальской природы, здесь вы сможете найти турбазу по своему вкусу.</p>
-            <p>Туристические базы отдыха на Байкале предоставляют разнообразные условия размещения, они отличаются по перечню
-            предлагаемых услуг и уровню комфорта.</p>
-            <p>Есть большие турбазы с полностью организованным питанием и вечерними дискотеками, есть также небольшие малолюдные базы
-            всего с несколькими коттеджами. Можно арендовать отдельный гостевой домик с кухней и готовить пищу самостоятельно.</p>
-            <p>Среди этого многообразия обязательно найдется подходящая, именно вам, база отдыха. Тем не менее, Байкал, до сих пор,
-            обладает всеми оттенками дикого экотуризма, чем и привлекает, уставших от городской суеты, туристов.</p>
-            <p>Если вы предпочитаете зимний байкальский отдых, к Вашим услугам круглогодичные отапливаемые турбазы и различные зимние
-            развлечения. Байкал зимой поражает кристальной чистотой и прозрачностью льда.</p>
-            <p>Туристы очень любят отмечать Новогодние праздники и Рождество на турбазах Байкала, так как новый год на Байкале
-            отличается особым волшебством. Развлекательную новогоднюю программу готовит почти каждая турбаза.</p>
+        <section class="easy">
+            <div class="container">
+            <h2 class="easy-title">Байкальский отдых с нами – это легко!</h2>
+            <div class="easy-container">
+                <div class="easy-right">
+                    <ul class="easy-list">
+                        <li class="easy-item-1"><img src="./images/otdyh-s-nami1.jpg" alt="берег моря" width="256"></li>
+                        <li class="easy-item-2"><img src="./images/otdyh-s-nami2.jpg" alt="парень и девушка" width="256"></li>
+                    </ul>
+                </div>
+                <div class="easy-left">
+                    <p class="easy-text">На сайте туристического агентства «Байкальский отдых» вы найдете всю необходимую информацию о туристических базах отдыха
+                    на озере Байкал. Любите ли вы отличный сервис и европейский комфорт или предпочитаете прочувствовать все трудности
+                    дикого туризма и окунуться в атмосферу байкальской природы, здесь вы сможете найти турбазу по своему вкусу.</p>
+                    <p class="easy-text">Туристические базы отдыха на Байкале предоставляют разнообразные условия размещения, они отличаются по перечню
+                    предлагаемых услуг и уровню комфорта.</p>
+                    <p class="easy-text">Есть большие турбазы с полностью организованным питанием и вечерними дискотеками, есть также небольшие малолюдные базы
+                    всего с несколькими коттеджами. Можно арендовать отдельный гостевой домик с кухней и готовить пищу самостоятельно.</p>
+                    <p class="easy-text">Среди этого многообразия обязательно найдется подходящая, именно вам, база отдыха. Тем не менее, Байкал, до сих пор,
+                    обладает всеми оттенками дикого экотуризма, чем и привлекает, уставших от городской суеты, туристов.</p>
+                    <p class="easy-text">Если вы предпочитаете зимний байкальский отдых, к Вашим услугам круглогодичные отапливаемые турбазы и различные зимние
+                    развлечения. Байкал зимой поражает кристальной чистотой и прозрачностью льда.</p>
+                    <p class="easy-text">Туристы очень любят отмечать Новогодние праздники и Рождество на турбазах Байкала, так как новый год на Байкале
+                    отличается особым волшебством. Развлекательную новогоднюю программу готовит почти каждая турбаза.</p>
+                </div>
+            </div>
+        </div>
         </section>
         <!--достижения фирмы-->
-        <section>
-            <h2>достижения</h2>
-            <ul>
-                <li>
-                    <p>7</p>
-                    <p>лет успешной
-                    работы</p>
+        <section class="achive">
+            <div class="container">
+            <h2 class="achiev-title visually-hidden">достижения</h2>
+            <ul class="achive-list">
+                <li class="achive-item">
+                    <span class="achive-item-digit">7</span>
+                    <p class="achive-item-text">лет успешной работы</p>
+                </li class="achive-item">
+                <li class="achive-item">
+                    <span class="achive-item-digit">250+</span>
+                    <p class="achive-item-text">отелей на Байкале</p>
                 </li>
-                <li>
-                    <p>250+</p>
-                    <p>отелей
-                    на Байкале</p>
+                <li class="achive-item">
+                    <span class="achive-item-digit">100+</span>
+                    <p class="achive-item-text">различных туров</p>
                 </li>
-                <li>
-                    <p>100+</p>
-                    <p>различных
-                    туров</p>
-                </li>
-                <li>
-                    <p>32 000</p>
-                    <p>кв. км – площадь на которой мы
+                <li class="achive-item">
+                    <span class="achive-item-digit">32 000</span>
+                    <p class="achive-item-text">кв. км – площадь на которой мы
                     организовываем путешествия</p>
                 </li>
-                <li>
-                    <p>50 000</p>
-                    <p>довольных туристов
+                <li class="achive-item">
+                    <span class="achive-item-digit">50 000</span>
+                    <p class="achive-item-text">довольных туристов
                     от 3 до 85 лет</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
 </body>

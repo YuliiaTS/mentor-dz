@@ -25,9 +25,9 @@ body {
     list-style: none;
   }
   
-  /* .list {
+  .list {
     list-style: none;
-  } */
+  }
   
   a {
     text-decoration: none;
@@ -225,12 +225,63 @@ body {
     border: 1px solid #d9d9de;
     overflow: hidden;
   }
+
+  /* -----------Основные направления деятельности----------- */
+
+  .main {
+    background-color: rgba(112, 207, 41, 0.07);
+  }
+
+/* -----------Популярные предложения фото ссилки----------- */
+
+.popular {
+  padding-top: 76px;
+  padding-bottom: 80px;
+}
+
+.popular-title {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: calc(40 / 30);
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.show-link {
+  display: block;
+}
+
+.show-wrap {
+  position: relative;
+  width: 256px;
+  border-radius: 6px;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%); */
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.show-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.3;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
   
   /* -------------GALLERY--------- */
   
   .gallery {
     padding-top: 39px;
     padding-bottom: 89px;
+    background-color: rgba(63, 169, 245, 0.07);
   }
   
   .gallery-header {
@@ -287,4 +338,92 @@ body {
     margin-right: 32px;
     margin-bottom: 32px;
     border-radius: 6px;
+  }
+
+/* -------------описание отдыха на байкале--------- */
+
+.easy-container {
+  padding-bottom: 54px;
+  border-bottom: 1px solid #D9D9DE;
+  display: flex;
+  justify-content: space-between;
+}
+
+.easy-title {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.3;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 45px;
+}
+
+.easy-right {
+  flex-basis: 256px;
+  margin-right: 128px;
+}
+
+.easy-list {
+  position: relative;
+}
+
+.easy-item-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.easy-item-2 {
+  position: absolute;
+  transform: translate(96px, 160px);
+}
+
+.easy-left {
+  flex-basis: 736px;
+  flex-grow: 1;
+}
+
+.easy-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+/* -------------достижения фирмы--------- */
+
+.achive {
+  padding-top: 41px;
+  padding-bottom: 85px;
+}
+
+.achive-list {
+  display: flex;
+  justify-content: flex-end;
+  }
+
+.achive-item {
+  list-style: none;
+  list-style-type: none;
+}
+
+.achive-item-digit {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 1.3;
+  color: #64BD22;
+  }
+
+  .achive-item-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #000000;
   }
