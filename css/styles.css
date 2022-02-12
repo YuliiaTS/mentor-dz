@@ -281,6 +281,63 @@ img {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.5);
 }
+/* -------------О Байкале--------- */
+
+.info {
+  padding-top: 70px;
+  padding-bottom: 84px;
+}
+
+.info-container {
+  display: flex;
+}
+
+.info-left {
+  margin-right: 32px;
+}
+
+.info-title {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: calc (40 / 30);
+  color: #000000;
+  margin-bottom: 21px;
+}
+
+.info-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.hide:checked {
+  display: block;
+}
+
+.checkbox-hidden:checked ~ .hidden {
+  display: block;
+}
+
+.checkbox-hidden:checked ~ .label > .read {
+  display: none;
+}
+
+.checkbox-hidden:checked ~ .label > .hide {
+  display: block;
+}
 
 /* -------------GALLERY--------- */
 
