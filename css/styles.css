@@ -564,11 +564,13 @@ img {
 
 .achive-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .achive-item {
   list-style: none;
   list-style-type: none;
+  margin-right: 47px;
 }
 
 .achive-item-digit {
